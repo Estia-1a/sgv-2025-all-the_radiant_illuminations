@@ -1,0 +1,40 @@
+/* --- SITE --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+/* --- HEADER --- */
+
+.contenu-header {
+    flex-direction: column;
+    text-align: center;
+}
+
+nav {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+nav a {
+    margin-left: 0;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #f0f0f0;
+    display: block;
+}
+
+
+nav a:last-child {
+    border-bottom: none;
+}
