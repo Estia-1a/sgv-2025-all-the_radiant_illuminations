@@ -25,6 +25,7 @@ ul {
 }
 nav ul{
     margin-top: 10px;
+    margin-right: 10px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
