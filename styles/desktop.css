@@ -116,3 +116,12 @@ nav a.active {
 .card_green {
     background: rgb(45, 178, 45);
 }
+.card_red {
+    background: rgb(211, 9, 9);
+}
+.card_blue {
+    background: rgb(30, 135, 191);
+}
+.card_purple {
+    background: rgb(201, 29, 127);
+}
