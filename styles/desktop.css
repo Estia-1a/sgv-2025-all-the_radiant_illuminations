@@ -99,7 +99,6 @@ nav a.active {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
-    margin-bottom: 40px;
     max-width: 1000px;
     margin: 0px auto;
     padding: 0px 20px;
@@ -210,4 +209,24 @@ input {
     cursor: pointer;
     font-size: 0.9rem;
     margin-top: 10px;
+}
+.conteneur_conseil_jour {
+    margin: 40px auto;
+    max-width: 1000px;
+    padding: 0 20px;
+}
+.boite_conseil {
+    margin-top: 40px;
+    background-color: white;
+    border-left: 5px solid #009B48;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: start;
+    gap: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+.boite_conseil i {
+    color: #f1c40f;
+    font-size: 1.5rem;
 }
