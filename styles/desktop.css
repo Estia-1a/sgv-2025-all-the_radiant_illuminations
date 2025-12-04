@@ -185,6 +185,7 @@ input {
 }
 
 /* ---- CARD 4 ----*/
+
 .liste_sentiments {
     font-size: 1.5rem;
     margin: 10px 0;
@@ -210,6 +211,9 @@ input {
     font-size: 0.9rem;
     margin-top: 10px;
 }
+
+/* ---- CONSEIL DU JOUR ----*/
+
 .conteneur_conseil_jour {
     margin: 40px auto;
     max-width: 1000px;
