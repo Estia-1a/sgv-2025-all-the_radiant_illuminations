@@ -89,8 +89,8 @@ nav a.active {
 
 .conteneur_card {
     display: grid;
-    /*grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;*/
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
     margin-bottom: 40px;
     max-width: 1000px;
     margin: 0 auto;
@@ -101,7 +101,7 @@ nav a.active {
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-    /*transition: transform 0.3s ease;*/
+    transition: transform 0.3s ease;
 }
 
 /* ----- EN-TÊTE CARD ----- */
@@ -114,7 +114,7 @@ nav a.active {
     gap: 10px;
 }
 .card_green {
-    background: rgb(45, 178, 45);
+    background-color: #009B48;
 }
 .card_red {
     background: rgb(211, 9, 9);
@@ -124,4 +124,38 @@ nav a.active {
 }
 .card_purple {
     background: rgb(201, 29, 127);
+}
+
+/* ----- CONTENU CARD ----- */
+
+.contenu_card {
+    padding: 20px;
+    text-align: center;
+}
+.input_card {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+input {
+    width: 80px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+}
+.progress-bar {
+    background-color: #eee;
+    height: 8px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.progress-fill {
+    background-color: #009B48;
+    height: 100%;
 }
