@@ -59,6 +59,8 @@ nav a.active {
     color: #C6101D;
 }
 
+/* ------ TEXTE ACCUEIL ------ */
+
 .texte_accueil {
     text-align: center;
     padding: 50px 0 30px;
@@ -69,6 +71,7 @@ nav a.active {
     margin: 0 auto;
     padding: 0 20px;
 }
+
 .texte_accueil h1 {
     font-size: 2rem;
     margin-bottom: 10px;
@@ -77,6 +80,39 @@ nav a.active {
 .texte_accueil p {
     color: #777;
 }
+
 .surbrillance {
     color: #C6101D;
+}
+
+/* ------ CARDS ------ */
+
+.conteneur_card {
+    display: grid;
+    /*grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;*/
+    margin-bottom: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    /*transition: transform 0.3s ease;*/
+}
+
+/* ----- EN-TÊTE CARD ----- */
+
+.header_card {
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.card_green {
+    background: rgb(45, 178, 45);
 }
