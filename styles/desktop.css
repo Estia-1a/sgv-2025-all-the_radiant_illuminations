@@ -148,6 +148,9 @@ input {
     font-size: 1.2rem;
     color: #333;
 }
+
+/* ---- CARD 1 ----*/
+
 .progress-bar {
     background-color: #eee;
     height: 8px;
@@ -159,3 +162,14 @@ input {
     background-color: #009B48;
     height: 100%;
 }
+
+/* ---- CARD 2 ----*/
+
+.conseil {
+    font-size: 0.85rem;
+    color: #555;
+    background-color: #fff3cd;
+    padding: 8px;
+    border-radius: 5px;
+}
+
