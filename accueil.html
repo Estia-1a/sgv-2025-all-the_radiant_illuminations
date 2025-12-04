@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 768px)">
+    <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 767px)">
+    <title>Header</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="conteneur contenu-header">
+            <div class="logo">
+                <img src="media/pictures/logo.png" alt="logo du site">
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#accueil" class="active">Accueil</a></li>
+                    <li><a href="#sante">Ma santé</a></li>
+                    <li><a href="#conseils">Conseils</a></li>
+                    <li><a href="#messagerie">Messagerie</a></li>
+                    <li><a href="#rdv">Rendez-vous</a></li>
+                    <li><a href="#profil">Profil</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="texte_accueil">
+        <div class="conteneur_texte_accueil">
+            <h1>Egun on, <span class="surbrillance">Peio</span> !</h1>
+            <p>Prêt pour une randonnée sur la Rhune ou une séance de surf aujourd'hui ? Suivons votre santé ensemble.
+            </p>
+        </div>
+    </section>
+    <section class="conteneur_card">
+        <div class="card">
+            <div class="header_card card_green">
+                <i class="fa-solid fa-person-hiking"></i>
+                <h3>Activité</h3>
+            </div>
+            <div class="contenu_card">
+                <p>Pas aujourd'hui :</p>
+                <div class="input_card">
+                    <input type="number" placeholder="0" value="4500">
+                    <span>pas</span>
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 45%;"></div>
+                </div>
+                <p class="texte_contenu_card">Objectif : 10 000 pas</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="header_card card_red">
+                <i class="fa-solid fa-utensils"></i>
+                <h3>Alimentation</h3>
+            </div>
+            <div class="contenu_card">
+                <p>Calories consommées :</p>
+                <div class="input_card">
+                    <input type="number" placeholder="0" value="1200">
+                    <span>kcal</span>
+                </div>
+                <p class="conseil">💡 Conseil : Pensez aux légumes de saison du marché de Bayonne.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="header_card card_blue">
+                <i class="fa-solid fa-bed"></i>
+                <h3>Sommeil</h3>
+            </div>
+            <div class="contenu_card">
+                <p>Dernière nuit :</p>
+                <div class="input_card">
+                    <input type="number" placeholder="0" value="7">
+                    <span>heures</span>
+                </div>
+                <p>Qualité : <strong>Bonne</strong></p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="header_card card_purple">
+                <i class="fa-solid fa-heart-pulse"></i>
+                <h3>Stress & Mental</h3>
+            </div>
+            <div class="contenu_card">
+                <p>Humeur du jour :</p>
+                <div class="liste_sentiments">
+                    <span class="sentiment selected">😊</span>
+                    <span class="sentiment">😐</span>
+                    <span class="sentiment">😔</span>
+                </div>
+                <button class="btn_relax">Exercice de respiration</button>
+            </div>
+        </div>
+    </section>
+    <section class="conteneur_conseil_jour">
+        <h2>Conseils pour vous</h2>
+        <div class="boite_conseil">
+            <i class="fa-solid fa-lightbulb"></i>
+            <div>
+                <h4>Hydratation après le sport</h4>
+                <p>Avec le vent du sud aujourd'hui, n'oubliez pas de boire au moins 2L d'eau, surtout si vous avez fait de la pelote basque ce matin !</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

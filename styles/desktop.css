@@ -1,0 +1,232 @@
+/* --- SITE --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+/* --- HEADER --- */
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    padding: 20px 0;
+}
+
+.conteneur {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.contenu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* --- NAVBAR --- */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-flex;
+    color: #666;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black
+}
+
+nav a:hover,
+nav a.active {
+    color: #C6101D;
+}
+
+/* ------ TEXTE ACCUEIL ------ */
+
+.texte_accueil {
+    text-align: center;
+    padding: 50px 0 30px;
+}
+
+.conteneur_texte_accueil {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.texte_accueil h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.texte_accueil p {
+    color: #777;
+}
+
+.surbrillance {
+    color: #C6101D;
+}
+
+/* ------ CARDS ------ */
+
+.conteneur_card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+.card {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 15px;
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* ----- EN-TÊTE CARD ----- */
+
+.header_card {
+    padding: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.card_green {
+    background-color: #009B48;
+}
+.card_red {
+    background: rgb(211, 9, 9);
+}
+.card_blue {
+    background: rgb(30, 135, 191);
+}
+.card_purple {
+    background: rgb(201, 29, 127);
+}
+
+/* ----- CONTENU CARD ----- */
+
+.contenu_card {
+    padding: 20px;
+    text-align: center;
+}
+.input_card {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+input {
+    width: 80px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* ---- CARD 1 ----*/
+
+.progress-bar {
+    background-color: #eee;
+    height: 8px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.progress-fill {
+    background-color: #009B48;
+    height: 100%;
+}
+
+/* ---- CARD 2 ----*/
+
+.conseil {
+    font-size: 0.85rem;
+    color: #555;
+    background-color: #fff3cd;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* ---- CARD 4 ----*/
+.liste_sentiments {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.sentiment {
+    opacity: 0.5;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.sentiment.selected{
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.btn_relax {
+    background-color: #8E44AD;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+.conteneur_conseil_jour {
+    margin: 40px auto;
+    max-width: 1000px;
+    padding: 0 20px;
+}
+.boite_conseil {
+    margin-top: 40px;
+    background-color: white;
+    border-left: 5px solid #009B48;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: start;
+    gap: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
+}
+.boite_conseil i {
+    color: #f1c40f;
+    font-size: 1.5rem;
+}

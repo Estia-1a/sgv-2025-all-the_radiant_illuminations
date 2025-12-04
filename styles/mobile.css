@@ -1,0 +1,46 @@
+/* --- SITE --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.contenu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+nav ul li {
+    display: inline-flex;
+    color: #666;
+    font-weight: 500;
+    transition: 0.3s;
+}
+nav ul li a {
+    margin: 3px;
+    text-decoration: none;
+    color : black
+}
+nav a:hover, nav a.active {
+    color: #C6101D;
+}
