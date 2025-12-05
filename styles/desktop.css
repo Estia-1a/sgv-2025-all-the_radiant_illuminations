@@ -288,6 +288,7 @@ input {
     align-items: center;
     justify-content: center;
     gap: 30px;
+    margin: 20px 20px;
 }
 
 .photo_profil {
@@ -316,5 +317,17 @@ input {
 }
 .statut_identite {
     margin-top: 10px; 
+    display: inline-block;
+}
+.btn_photo {
+    background-color: #8E44AD;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    text-decoration: none; 
     display: inline-block;
 }
