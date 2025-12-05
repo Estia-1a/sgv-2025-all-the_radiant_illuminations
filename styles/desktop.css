@@ -15,6 +15,7 @@ body {
     background-color: #f4f7f6;
     color: #333;
 }
+
 p {
     display: block;
     margin-block-start: 1em;
@@ -125,6 +126,7 @@ footer {
     margin: 0px auto;
     padding: 0px 20px;
 }
+
 .card {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 15px;
     background: white;
@@ -146,15 +148,19 @@ footer {
     align-items: center;
     gap: 10px;
 }
+
 .card_green {
     background-color: #009B48;
 }
+
 .card_red {
     background: rgb(211, 9, 9);
 }
+
 .card_blue {
     background: rgb(30, 135, 191);
 }
+
 .card_purple {
     background: rgb(201, 29, 127);
 }
@@ -165,6 +171,7 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
 .input_card {
     margin: 15px 0;
     display: flex;
@@ -172,6 +179,7 @@ footer {
     align-items: center;
     gap: 5px;
 }
+
 input {
     width: 80px;
     padding: 5px;
@@ -191,6 +199,7 @@ input {
     overflow: hidden;
     margin-bottom: 10px;
 }
+
 .progress-fill {
     background-color: #009B48;
     height: 100%;
@@ -213,12 +222,14 @@ input {
     margin: 10px 0;
     cursor: pointer;
 }
+
 .sentiment {
     opacity: 0.5;
     transition: 0.2s;
     cursor: pointer;
 }
-.sentiment.selected{
+
+.sentiment.selected {
     opacity: 1;
     transform: scale(1.2);
 }
@@ -241,6 +252,7 @@ input {
     max-width: 1000px;
     padding: 0 20px;
 }
+
 .boite_conseil {
     margin-top: 40px;
     background-color: white;
@@ -252,6 +264,7 @@ input {
     gap: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
 }
+
 .boite_conseil i {
     color: #f1c40f;
     font-size: 1.5rem;
@@ -263,10 +276,27 @@ input {
 |                                                         |
 |---------------------------------------------------------*/
 
+.conteneur_identite {
+    max-width: 1000px;
+    margin: 0 auto 20px;
+    padding: 0 20px;
+}
 
+.contenu_card_identite {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
 
-
-
-
-
-
+.photo_profil {
+    background: #eee; 
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-size: 2.5rem;
+}
