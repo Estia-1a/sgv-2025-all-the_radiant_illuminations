@@ -1,4 +1,9 @@
-/* --- SITE --- */
+/*--------------------------------------------------------|
+|                                                         |
+|                         SITE                            |
+|                                                         |
+|---------------------------------------------------------*/
+
 * {
     margin: 0;
     padding: 0;
@@ -40,6 +45,7 @@ header {
 }
 
 /* --- NAVBAR --- */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -66,6 +72,22 @@ nav a:hover,
 nav a.active {
     color: #C6101D;
 }
+
+/* ---- FOOTER ----*/
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgb(153, 153, 153);
+    padding: 20px;
+    border-top: 1px solid rgb(238, 238, 238);
+}
+
+/*--------------------------------------------------------|
+|                                                         |
+|                         ACCUEIL                         |
+|                                                         |
+|---------------------------------------------------------*/
 
 /* ------ TEXTE ACCUEIL ------ */
 
@@ -235,12 +257,16 @@ input {
     font-size: 1.5rem;
 }
 
-/* ---- FOOTER ----*/
+/*--------------------------------------------------------|
+|                                                         |
+|                         PROFIL                          |
+|                                                         |
+|---------------------------------------------------------*/
 
-footer {
-    text-align: center;
-    font-size: 0.8rem;
-    color: rgb(153, 153, 153);
-    padding: 20px;
-    border-top: 1px solid rgb(238, 238, 238);
-}
+
+
+
+
+
+
+
