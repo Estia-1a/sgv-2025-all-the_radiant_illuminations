@@ -277,6 +277,8 @@ input {
 |                                                         |
 |---------------------------------------------------------*/
 
+/* ---- IDENTITE ----*/
+
 .conteneur_identite {
     max-width: 1000px;
     margin: 0 auto 20px;
@@ -333,6 +335,9 @@ input {
     margin-top: 10px; 
     display: inline-block;
 }
+
+/* ---- COORDONNEES ----*/
+
 .contenu_card_coord {
     padding: 20px;
     text-align: left;
