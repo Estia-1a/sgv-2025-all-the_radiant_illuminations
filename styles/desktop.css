@@ -243,6 +243,7 @@ input {
     cursor: pointer;
     font-size: 0.9rem;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 /* ---- CONSEIL DU JOUR ----*/
@@ -320,7 +321,7 @@ input {
     display: inline-block;
 }
 .btn_photo {
-    background-color: #8E44AD;
+    background-color: rgb(201, 29, 127);
     color: white;
     border: none;
     padding: 8px 15px;
@@ -340,4 +341,18 @@ input {
     height: 1px; 
     background: #eee; 
     margin: 10px 0;
+}
+.btn_maj {
+    text-align: center; 
+    margin-top: 20px;
+    text-decoration: none; 
+    display: inline-block;
+    background-color: #009B48;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 10px;
 }
