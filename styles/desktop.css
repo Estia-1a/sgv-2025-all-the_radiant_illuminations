@@ -1,4 +1,9 @@
-/* --- SITE --- */
+/*--------------------------------------------------------|
+|                                                         |
+|                         SITE                            |
+|                                                         |
+|---------------------------------------------------------*/
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +15,7 @@ body {
     background-color: #f4f7f6;
     color: #333;
 }
+
 p {
     display: block;
     margin-block-start: 1em;
@@ -40,6 +46,7 @@ header {
 }
 
 /* --- NAVBAR --- */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -66,6 +73,22 @@ nav a:hover,
 nav a.active {
     color: #C6101D;
 }
+
+/* ---- FOOTER ----*/
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgb(153, 153, 153);
+    padding: 20px;
+    border-top: 1px solid rgb(238, 238, 238);
+}
+
+/*--------------------------------------------------------|
+|                                                         |
+|                         ACCUEIL                         |
+|                                                         |
+|---------------------------------------------------------*/
 
 /* ------ TEXTE ACCUEIL ------ */
 
@@ -103,6 +126,7 @@ nav a.active {
     margin: 0px auto;
     padding: 0px 20px;
 }
+
 .card {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 15px;
     background: white;
@@ -124,15 +148,19 @@ nav a.active {
     align-items: center;
     gap: 10px;
 }
+
 .card_green {
     background-color: #009B48;
 }
+
 .card_red {
     background: rgb(211, 9, 9);
 }
+
 .card_blue {
     background: rgb(30, 135, 191);
 }
+
 .card_purple {
     background: rgb(201, 29, 127);
 }
@@ -143,6 +171,7 @@ nav a.active {
     padding: 20px;
     text-align: center;
 }
+
 .input_card {
     margin: 15px 0;
     display: flex;
@@ -150,6 +179,7 @@ nav a.active {
     align-items: center;
     gap: 5px;
 }
+
 input {
     width: 80px;
     padding: 5px;
@@ -169,6 +199,7 @@ input {
     overflow: hidden;
     margin-bottom: 10px;
 }
+
 .progress-fill {
     background-color: #009B48;
     height: 100%;
@@ -191,12 +222,14 @@ input {
     margin: 10px 0;
     cursor: pointer;
 }
+
 .sentiment {
     opacity: 0.5;
     transition: 0.2s;
     cursor: pointer;
 }
-.sentiment.selected{
+
+.sentiment.selected {
     opacity: 1;
     transform: scale(1.2);
 }
@@ -210,6 +243,7 @@ input {
     cursor: pointer;
     font-size: 0.9rem;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 /* ---- CONSEIL DU JOUR ----*/
@@ -219,6 +253,7 @@ input {
     max-width: 1000px;
     padding: 0 20px;
 }
+
 .boite_conseil {
     margin-top: 40px;
     background-color: white;
@@ -230,17 +265,81 @@ input {
     gap: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.03);
 }
+
 .boite_conseil i {
     color: #f1c40f;
     font-size: 1.5rem;
 }
 
-/* ---- FOOTER ----*/
+/*--------------------------------------------------------|
+|                                                         |
+|                         PROFIL                          |
+|                                                         |
+|---------------------------------------------------------*/
 
-footer {
-    text-align: center;
-    font-size: 0.8rem;
-    color: rgb(153, 153, 153);
+.conteneur_identite {
+    max-width: 1000px;
+    margin: 0 auto 20px;
+    padding: 0 20px;
+}
+
+.contenu_card_identite {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px 20px;
+}
+
+.btn_profil {
+    text-align: center; 
+    margin-top: 20px;
+    text-decoration: none; 
+    display: inline-block;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.photo_profil {
+    background: #eee;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+.texte_info_perso {
+    text-align: left;
+}
+
+.texte_info_perso h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.texte_info_perso p {
+    margin: 0;
+    color: #777;
+}
+.statut_identite {
+    margin-top: 10px; 
+    display: inline-block;
+}
+.contenu_card_coord {
     padding: 20px;
-    border-top: 1px solid rgb(238, 238, 238);
+    text-align: left;
+}
+.trait_separation {
+    height: 1px; 
+    background: #eee; 
+    margin: 10px 0;
 }

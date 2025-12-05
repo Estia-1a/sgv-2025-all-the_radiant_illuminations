@@ -1,4 +1,9 @@
-/* --- SITE --- */
+/*--------------------------------------------------------|
+|                                                         |
+|                         SITE                            |
+|                                                         |
+|---------------------------------------------------------*/
+
 * {
     margin: 0;
     padding: 0;
@@ -18,11 +23,16 @@ ul {
     list-style: none;
 }
 
+/* --- HEADER --- */
+
 .contenu-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+/* --- NAVBAR --- */
+
 nav ul{
     margin-top: 10px;
     margin-right: 10px;
@@ -44,6 +54,22 @@ nav ul li a {
 nav a:hover, nav a.active {
     color: #C6101D;
 }
+
+/* ---- FOOTER ----*/
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: rgb(153, 153, 153);
+    padding: 20px;
+    border-top: 1px solid rgb(238, 238, 238);
+}
+
+/*--------------------------------------------------------|
+|                                                         |
+|                         ACCUEIL                         |
+|                                                         |
+|---------------------------------------------------------*/
 
 /* ------ TEXTE ACCUEIL ------ */
 
@@ -213,12 +239,8 @@ input {
     font-size: 1.5rem;
 }
 
-/* ---- FOOTER ----*/
-
-footer {
-    text-align: center;
-    font-size: 0.8rem;
-    color: rgb(153, 153, 153);
-    padding: 20px;
-    border-top: 1px solid rgb(238, 238, 238);
-}
+/*--------------------------------------------------------|
+|                                                         |
+|                         PROFIL                          |
+|                                                         |
+|---------------------------------------------------------*/
