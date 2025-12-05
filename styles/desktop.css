@@ -291,12 +291,30 @@ input {
 }
 
 .photo_profil {
-    background: #eee; 
-    width: 100px; 
-    height: 100px; 
-    border-radius: 50%; 
-    display: flex; 
-    align-items: center; 
-    justify-content: center; 
+    background: #eee;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-size: 2.5rem;
+}
+
+.texte_info_perso {
+    text-align: left;
+}
+
+.texte_info_perso h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.texte_info_perso p {
+    margin: 0;
+    color: #777;
+}
+.statut_identite {
+    margin-top: 10px; 
+    display: inline-block;
 }
