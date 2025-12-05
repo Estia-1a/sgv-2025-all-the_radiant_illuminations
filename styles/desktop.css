@@ -331,3 +331,13 @@ input {
     text-decoration: none; 
     display: inline-block;
 }
+
+.contenu_card_coord {
+    padding: 20px;
+    text-align: left;
+}
+.trait_separation {
+    height: 1px; 
+    background: #eee; 
+    margin: 10px 0;
+}
